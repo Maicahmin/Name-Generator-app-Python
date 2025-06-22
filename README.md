@@ -1,4 +1,4 @@
- Name-Generator-app-Python
+# Name-Generator-app-Python
 
 will Create 3 lists for first name, middle name, and last name with 10 items per list
 
