@@ -1,4 +1,4 @@
-# Name-Generator-app-Python
+ Name-Generator-app-Python
 
 will Create 3 lists for first name, middle name, and last name with 10 items per list
 
@@ -12,18 +12,19 @@ If No, display the word "Thank you!" and display all the names that user generat
 
 ----------------------------------------------------------------------------------------------
 
-import random
 
-fname = ["Angela", "Pharsa", "Harith", "Lunox", "Hanabi", "Ling", "Lancelot", "Gusion", "Chang'e", "Aamon"]
+    import random
 
-mname = ["Min", "Kim", "Lee", "Cy", "Tae", "Nam", "Jung", "Seok", "Tan", "Jeon"]
+    fname = ["Angela", "Pharsa", "Harith", "Lunox", "Hanabi", "Ling", "Lancelot", "Gusion", "Chang'e", "Aamon"]
 
-lname = ["DelaCruz", "Bautista", "Mercado", "DelMonte", "Ramos", "Garcia", "Santos", "Reyes", "Cruz", "Perez"]
+    mname = ["Min", "Kim", "Lee", "Cy", "Tae", "Nam", "Jung", "Seok", "Tan", "Jeon"]
 
-store = []
+    lname = ["DelaCruz", "Bautista", "Mercado", "DelMonte", "Ramos", "Garcia", "Santos", "Reyes", "Cruz", "Perez"]
+
+    store = []
 
 
-while True:
+    while True:
 
     name = input("Do you want to generate a new name? [y/n]: ")
     
